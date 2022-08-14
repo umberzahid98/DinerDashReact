@@ -1,0 +1,128 @@
+.filter_button{
+  width: 7em;
+  margin-right: 2%;
+  color: white;
+  font-weight: bold;
+}
+.summary_heading{
+  display: flex;
+  justify-content: space-around;
+}
+.summary_card{
+  max-width: 35rem;
+  max-height: 40rem;
+}
+.ordered_status{
+  color:white;
+  background-color:orange ;
+  padding: 1vh 1vh;
+  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-top-right-radius: 1rem;
+  width:110px;
+  margin-right: 2%;
+}
+.paid_status{
+  color:white;
+  background-color:rgb(24, 117, 112) ;
+  padding: 1vh 1vh;
+  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-top-right-radius: 1rem;
+  width:110px;
+  margin-right: 2%;
+  border:none;
+}
+.cancelled_status{
+  color:white;
+  background-color:rgb(245, 57, 20) ;
+  padding: 1vh 1vh;
+  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-top-right-radius: 1rem;
+  width:110px;
+  margin-right: 2%;
+
+}
+.completed_status{
+  color:white;
+  background-color:rgb(117, 207, 39) ;
+  padding: 1vh 1vh;
+  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-top-right-radius: 1rem;
+  width:110px;
+}
+.filter_heading{
+  max-width: 35rem;
+  max-height: 40rem;
+}
+.selected_status{
+  display:none;
+}
+.selected_status_div{
+  color:white;
+  background-color:rgb(126, 106, 165) ;
+  padding: 1vh 1vh;
+  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-top-right-radius: 1rem;
+  width:190px;
+  display: none;
+  border-color: white;
+}
+.order_div{
+  background-color:#dde4e2;
+  padding: 2%;
+  padding-bottom: 2%;
+  margin: 2%;
+  border-radius: 1rem;
+}
+.status_change_div{
+  margin-top: 1em;
+  display: flex;
+}
+.info_div{
+  width: 30em;
+}
+.order_info{
+  width: 60em;
+}
+.cancelled_tag{
+  color:red;
+}
+.completed_tag{
+  color:green;
+}
+.cancelled_button{
+  background-color:rgb(246, 55, 21) ;
+  border-bottom-left-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border-color: white;
+  width:4em;
+}
+.paid_button{
+  background-color:#1f948e ;
+  border-bottom-left-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border-color: white;
+  width:7em;
+}
+.completed_button{
+  background-color:rgb(57, 223, 57) ;
+  border-bottom-left-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border-color: white;
+  width:11em;
+}
